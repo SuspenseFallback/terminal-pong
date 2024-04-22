@@ -19,3 +19,10 @@ No external pip modules! The ones imported are:
   - The ball movement
  - The paddle is moved in a `while True` loop using `curses` key checking
  - The ball movement is handled in a separate thread
+
+## Physics
+
+Very simple:
+
+- Moving the paddle faster than the y-velocity of the ball increases the y-velocity in that direction
+- Otherwise, it stays the same/goes to 0
