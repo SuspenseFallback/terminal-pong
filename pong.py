@@ -5,8 +5,8 @@ import _thread
 import threading
 from time import sleep
 
-vx = -25
-vy = 5
+vx = -12
+vy = 2
 score = '0000'
 
 class Operation(threading.Timer):
